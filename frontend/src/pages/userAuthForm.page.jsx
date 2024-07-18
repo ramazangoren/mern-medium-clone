@@ -15,7 +15,7 @@ const UserAuthForm = ({ type }) => {
     userAuth: { access_token },
     setUserAuth,
   } = useContext(UserContext);
-  console.log(access_token);
+  // console.log(access_token);
 
   const userAuthThoughServer = (serverRoute, formData) => {
     axios
